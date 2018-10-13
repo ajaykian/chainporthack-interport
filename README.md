@@ -26,9 +26,9 @@
 * --
 * --
 
-## Feedback
-* 
-* 
+## Mockup
+
+![captura de ecra 2018-10-12 as 21 58 57](https://user-images.githubusercontent.com/18186452/46900501-7738c380-cea3-11e8-9bed-65d4e2a74bde.png)
 
 ## Status
 
