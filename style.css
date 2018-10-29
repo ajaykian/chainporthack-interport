@@ -1,0 +1,91 @@
+.map{
+    position:relative;
+    z-index:1;
+    height: 100%;
+    width: 100%;
+}
+
+/* .ship{
+    position:relative; 
+    z-index:2;
+    margin-top: -50px;
+    margin-left: 800px;
+    color: red;
+} */
+
+@keyframes movemyship {
+    from {
+        transform: translateX(0px);
+    }
+
+    30% {
+        transform: translateX(-450px);
+    }
+
+    60% {
+        transform: translateX(0px);
+    }
+
+}
+
+.ship{
+    position:relative; 
+    z-index:2;
+    margin-top: -50px;
+    margin-left: 800px;
+    color: red;
+}
+
+.ship:hover
+{
+    animation: movemyship 100s steps(25); /* 3 étapes */
+}
+
+/* .ship1{
+    position:relative;
+    z-index:100;
+    margin-top: -50px;
+    margin-left: 750px;
+    color: red;
+}
+.ship2{
+    position:relative;
+    z-index:100;
+    margin-top: -70px;
+    margin-left: 700px;
+    color: red;
+}
+.ship3{
+    position:relative;
+    z-index:100;
+    margin-top: -90px;
+    margin-left: 650px;
+    color: red;
+}
+.ship4{
+    position:relative;
+    z-index:100;
+    margin-top: -40px;
+    margin-left: 600px;
+    color: red;
+}
+.ship5{
+    position:relative;
+    z-index:100;
+    margin-top: -15px;
+    margin-left: 550px;
+    color: red;
+}
+.ship6{
+    position:relative;
+    z-index:100;
+    margin-top: -15px;
+    margin-left: 500px;
+    color: red;
+}
+.ship7{
+    position:relative;
+    z-index:100;
+    margin-left: 450px;
+    color: red;
+} */
